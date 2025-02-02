@@ -32,7 +32,7 @@ class UnggahDokumenView extends GetView {
           backgroundColor: Color(0xff479944),
         ),
         child: Text(
-          'Lanjut',
+          'Simpan',
           style: TextStyle(color: Colors.white),
         ),
       ),
