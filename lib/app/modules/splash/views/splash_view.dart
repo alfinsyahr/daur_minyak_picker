@@ -47,7 +47,9 @@ class SplashView extends GetView<SplashController> {
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Color(0xff479944),
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Get.toNamed(Routes.MASUK);
+                      },
                       child: Text(
                         'MASUK',
                         style: TextStyle(color: Colors.white),
